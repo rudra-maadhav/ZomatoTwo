@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ashu.zomatotwo.RestaurantFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Enter Your Location"
+        android:textSize="26sp"
+        android:layout_margin="5dp"
+        android:id="@+id/edittext1"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="26sp"
+        android:layout_margin="5dp"
+        android:id="@+id/button50"
+        android:text="Find"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:id="@+id/recyclerview1">
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>
